@@ -1,0 +1,144 @@
+class Lexer{
+String inputStr;
+//Ignore block comments
+boolean ignoreBlockComments = true;
+//Ignore single line comments
+boolean ignoreSingleLineComments = true;
+ 
+public Lexer(String inputStr){
+this.inputStr = inputStr;
+}
+ 
+public List<Token> convertStringToTokenObjects(){
+List<Token> tokenList = new ArrayList<>();
+//Parse the input string and generate token objects
+return tokenList;
+}
+ 
+//Real literal represents fractional number public Token realLiteral( () //Token definition return token; } //Natural literal represent whole numbers and  public Token naturalLiteral (){ //Token definition return token; } //Bool literal public Token boolLiteral(  //Token definition return token; } //Char literal represents a single ascii character including escape character public Token charLiteral (){ //Token definition return token; } //String literal represents a any number of ascii characters including escape character public Token stringLiteral()  //Token definition return token; } //Keywords public Token forkeyword(){ //Token definition return token; } public Token ifKeyword (){ //Token definition return token; }
+public Token intKeyword (){
+ //Token definition return token;
+
+
+public Token doubleKeyword(){
+//Token definition
+return token;
+}
+ 
+public Token charKeyword(){
+//Token definition
+return token;
+}
+ 
+public Token booleanKeyword(){
+//Token definition
+return token;
+}
+ 
+public Token stringKeyword(){
+//Token definition
+return token;
+}
+ 
+//Special Symbols
+public Token plusSymbol(){
+//Token definition
+return token;
+}
+ 
+public Token minusSymbol(){
+//Token definition
+return token;
+}
+ 
+public Token multiplySymbol(){
+//Token definition
+return token;
+}
+ 
+public Token divideSymbol(){
+//Token definition
+return token;
+}
+ 
+public Token exponentSymbol(){
+//Token definition
+return token;
+}
+ 
+public Token breakOrderOfOperationsSymbol(){
+//Token definition
+return token;
+}
+ 
+public Token greaterThanSymbol(){
+//Token definition
+return token;
+}
+ 
+public Token lessThanSymbol(){
+//Token definition
+return token;
+}
+ 
+public Token greaterThanEqualToSymbol(){
+//Token definition
+return token;
+}
+ 
+public Token lessThanEqualToSymbol(){
+//Token definition
+return token;
+}
+ 
+public Token equalToSymbol(){
+//Token definition
+return token;
+}
+ 
+public Token notEqualToSymbol(){
+//Token definition
+return token;
+}
+ 
+public Token unaryNegationOperator(){
+//Token definition
+return token;
+}
+ 
+public Token logicalNotSymbol(){
+//Token definition
+return token;
+}
+ 
+public Token logicalAndSymbol(){
+//Token definition
+return token;
+}
+ 
+public Token logicalOrSymbol(){
+//Token definition
+return token;
+}
+ 
+public Token groupCodeBlocksSymbol(){
+//Token definition
+return token;
+}
+ 
+public Token parameterSeparatorSymbol(){
+//Token definition
+return token;
+}
+ 
+public Token functionParameterSymbol(){
+//Token definition
+return token;
+}
+ 
+//Variable/function identifier
+public Token variableOrFunctionIdentifier(){
+//Token definition
+return token;
+}
+}
