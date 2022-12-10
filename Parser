@@ -1,0 +1,33 @@
+class Parser{
+List<Token> tokenList;
+ 
+public Parser(List<Token> tokenList){
+this.tokenList = tokenList;
+}
+ 
+public ParseTree generateParseTree(){
+ParseTree = new ParseTree();
+//Parse the token list and generate parse tree
+return parseTree;
+}
+ 
+public void parseCodeBlock(){
+//Parse code block
+}
+ 
+public void parseSelectionStatement(){
+//Parse selection statement
+}
+ 
+public void parseLoopStatement(){
+//Parse loop statement
+}
+ 
+public void parseAssignmentStatement(){
+//Parse assignment statement
+}
+ 
+public void parseDeclarationStatement(){
+//Parse declaration statement
+}
+}
